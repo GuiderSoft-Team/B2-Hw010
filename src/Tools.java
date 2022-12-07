@@ -20,22 +20,6 @@ public final class Tools {
         }
         return part1 + "-" + part2;
     }
-
-    public static void main(String[] args) {
-
-        try {
-            String word1 = "Ahmet";
-            String word2 = "Dursun";
-            String word3 = null;
-            String word4 = "     ";
-            System.out.println("Split Word1: " + splitWord(word1));
-            System.out.println("Split Word2: " + splitWord(word2));
-            System.out.println("Split Word3: " + splitWord(word3));
-            System.out.println("Split Word4: " + splitWord(word4));
-
-        } catch (NullPointerException ex) {
-            System.out.println("Hata: Null veya boşluk girilmez!!" + ex.getMessage());
-        }
-    }
 }
+
 
