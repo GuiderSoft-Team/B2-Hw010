@@ -6,7 +6,7 @@ public final class Tools {
             System.err.println("word,null-boş-boşluk(lar)dan oluşamaz");
         }
         try{
-            if (word.length()%2==0){
+            if (word.length()%2==1){
                 part1=word.substring(0,word.length()/2);
                 part2=word.substring(word.length()/2);
             }else {
