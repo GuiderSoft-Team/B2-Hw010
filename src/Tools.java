@@ -6,10 +6,14 @@ public final class Tools {
         String part2 ="";
         int d =word.length()/2;
 
+        if (word!=null&&!word.isEmpty()){
+        }else
+            System.err.println("word cannot be null or/and empty");
+
     try {
         if (word.length()%2==1){
-        part1= word.substring(0,d);
-        part2=word.substring(d);
+        part1= word.substring(0,d+1);
+        part2=word.substring(d+1);
 
         }else {
           part1=word.substring(0,d+1);
