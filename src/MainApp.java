@@ -5,7 +5,7 @@ public class MainApp {
 
         try {
             Tools tool=new Tools();
-            System.out.println(tool.splitWord("özge"));
+            System.out.println(tool.splitWord("Önder"));
 
         }catch (NullPointerException ex){
             System.out.println("hata : "+ex.getMessage());

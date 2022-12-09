@@ -3,7 +3,7 @@ public class Tools {
         String part1="";
         String part2="";
         if ((word==null) || (word.isBlank())){
-            throw new NullPointerException("Kelime bos birakilamaz veya Null olamaz");
+            throw new NullPointerException("Kelime boş bırakılamaz veya Null olamaz!");
         }
         try {
 
