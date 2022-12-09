@@ -8,7 +8,7 @@ public final class Tools {
                int cift = word.length() / 2;
                System.out.println(word.substring(0, cift) + "-" + word.substring(cift, word.length()));
            } else if (word.length()%2==1) {
-              int tek =Math.round( word.length() / 2);
+              int tek = word.length() / 2;
                System.out.println (word.substring(0,tek+1)+"-"+word.substring(tek+1, word.length()));
 
            }
